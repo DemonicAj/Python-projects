@@ -1,4 +1,3 @@
-
 #Game of Rock Paper Scissor
 #By DemonicAJ
 import random
@@ -8,9 +7,9 @@ def game(z):
     l=[1,2,3]
     d={1:"rock",2:"paper",3:"scissor"}
     for i in range(z):
-        x=int(input("Choose 1:rock 2:paper 3:scissors \n"))
+        x=int(input("Choose 1:rock 2:paper 3:scissors \n"))  #player chooses
         print(d[x])
-        y=random.randrange(1,4,1) 
+        y=random.randrange(1,4,1) #computer chooses
         print(d[y])
         if y not in l:
             print("Wrong Choice")
