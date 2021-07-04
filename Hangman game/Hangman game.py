@@ -71,10 +71,9 @@ for i in range(0,n):
         game(x)
     else:
         i=i-1
-    
 if gc==n:
-    print("You have guessed all {n} words correctly!!")
+    print(f"You have guessed all {n} words correctly!!")
 elif gc>0:
-    print("You only guessed {gc} words correctly!! And You failed to guess {gw} words!!")
+    print(f"You only guessed {gc} word(/s) correctly!! And You failed to guess {gw} word(/s)!!")
 else:
     print("You failed to guess all the words!!")
